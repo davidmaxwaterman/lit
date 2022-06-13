@@ -1,5 +1,14 @@
 # @lit-labs/context
 
+## 0.1.2
+
+### Patch Changes
+
+- [#2979](https://github.com/lit/lit/pull/2979) [`09156025`](https://github.com/lit/lit/commit/0915602543cd211be19ffd2f54e0082df7ac5ea4) - Fixes `@contextProvider` when multiple instances of an element are created; updates docs to consistently reference `@contextProvided`.
+
+- [#3029](https://github.com/lit/lit/pull/3029) [`b373fccd`](https://github.com/lit/lit/commit/b373fccd19f87823cf9f753851cef838cb92934c) - An element can now provide and request the same context. This lets elements
+  redefine the context binding in terms of what was provided by the parent.
+
 ## 0.1.1
 
 ### Patch Changes
